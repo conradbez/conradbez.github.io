@@ -14,14 +14,14 @@
             "url": "https://conradbezuidenhout.com/cat-bus-congestion-analysis.html",
             "title": "Cat bus congestion analysis",
             "content_html": "<iframe width=\"100%\" height=\"5000\" src=\"https://perthcatbus.herokuapp.com/\"></iframe>",
-            "image": "https://conradbezuidenhout.com/media/posts/3/catBus.gif",
+            "image": "https://conradbezuidenhout.com/media/posts/3/catBussmall.gif",
             "author": {
                 "name": "Conrad Bezuidenhout"
             },
             "tags": [
             ],
             "date_published": "2019-12-17T15:38:41+08:00",
-            "date_modified": "2019-12-17T15:57:19+08:00"
+            "date_modified": "2019-12-17T16:06:26+08:00"
         },
         {
             "id": "https://conradbezuidenhout.com/projects.html",
