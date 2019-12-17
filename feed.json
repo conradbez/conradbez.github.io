@@ -13,15 +13,15 @@
             "id": "https://conradbezuidenhout.com/projects.html",
             "url": "https://conradbezuidenhout.com/projects.html",
             "title": "Projects",
-            "summary": "Consultant SaysNeural net that talks like a management consultant consultant-says.herokuapp.com MILP visual optimiserVisual design a system and send it to minizinc for milp optimisation revo-opti.herokuapp.com Cat Bus analysisScrape pulib cat bus data and visualise perthcatbus.herokuapp.com",
-            "content_html": "<div class=\"resume-item d-flex flex-column flex-md-row justify-content-between mb-5\">\n<div class=\"resume-content\">\n<h3 id=\"mcetoc_1ds8r1q294\" class=\"mb-0\">Consultant Says</h3>\n<p id=\"mcetoc_1ds8r5a2b0\" class=\"mb-0\">Neural net that talks like a management consultant<br><a href=\"consultant-says.herokuapp.com\">consultant-says.herokuapp.com</a></p>\n<div> </div>\n</div>\n</div>\n<div class=\"resume-item d-flex flex-column flex-md-row justify-content-between\">\n<div class=\"resume-content\">\n<h3 id=\"mcetoc_1ds8r1q295\" class=\"mb-0\">MILP visual optimiser</h3>\n<div class=\"subheading mb-3\">Visual design a system and send it to minizinc for milp optimisation<br><a href=\"https://revo-opti.herokuapp.com/\">revo-opti.herokuapp.com</a></div>\n<div class=\"subheading mb-3\"> </div>\n<div class=\"subheading mb-3\">\n<h3 id=\"mcetoc_1ds8r1q295\" class=\"mb-0\">Cat Bus analysis</h3>\n<div class=\"subheading mb-3\">Scrape pulib cat bus data and visualise </div>\n<div class=\"subheading mb-3\"><a href=\"https://perthcatbus.herokuapp.com/\">perthcatbus.herokuapp.com</a></div>\n</div>\n</div>\n</div>",
+            "summary": "A collection of some of the project I do in my spare time. Some are involved, others just an idea I threw together in an afternoon. Neural net that talks like a management consultant consultant-says.herokuapp.com MILP visual optimiserVisual design a system and send it to minizinc&hellip;",
+            "content_html": "<div class=\"resume-item d-flex flex-column flex-md-row justify-content-between mb-5\">\n<div class=\"resume-content\">\n<p id=\"mcetoc_1ds8sbcvh0\" class=\"mb-0\">A collection of some of the project I do in my spare time. Some are involved, others just an idea I threw together in an afternoon.</p>\n<h3 id=\"mcetoc_1ds8r1q294\" class=\"mb-0\">Consultant Says</h3>\n<p id=\"mcetoc_1ds8r5a2b0\" class=\"mb-0\">Neural net that talks like a management consultant<br><a href=\"consultant-says.herokuapp.com\">consultant-says.herokuapp.com</a></p>\n<div> </div>\n</div>\n</div>\n<div class=\"resume-item d-flex flex-column flex-md-row justify-content-between\">\n<div class=\"resume-content\">\n<h3 id=\"mcetoc_1ds8r1q295\" class=\"mb-0\">MILP visual optimiser</h3>\n<div class=\"subheading mb-3\">Visual design a system and send it to minizinc for milp optimisation<br><a href=\"https://revo-opti.herokuapp.com/\">revo-opti.herokuapp.com</a></div>\n<div class=\"subheading mb-3\"> </div>\n<div class=\"subheading mb-3\">\n<h3 id=\"mcetoc_1ds8r1q295\" class=\"mb-0\">Cat Bus analysis</h3>\n<div class=\"subheading mb-3\">Scrape pulib cat bus data and visualise </div>\n<div class=\"subheading mb-3\"><a href=\"https://perthcatbus.herokuapp.com/\">perthcatbus.herokuapp.com</a></div>\n</div>\n</div>\n</div>",
             "author": {
                 "name": "Conrad Bezuidenhout"
             },
             "tags": [
             ],
             "date_published": "2019-12-17T10:29:06+08:00",
-            "date_modified": "2019-12-17T10:33:56+08:00"
+            "date_modified": "2019-12-17T10:53:34+08:00"
         },
         {
             "id": "https://conradbezuidenhout.com/resume.html",
