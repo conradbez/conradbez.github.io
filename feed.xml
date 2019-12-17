@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <title>Personal</title>
-    <link href="https://conradbez.github.io/conradbez.github.io/feed.xml" rel="self" />
-    <link href="https://conradbez.github.io/conradbez.github.io" />
-    <updated>2019-12-17T10:44:41+08:00</updated>
+    <link href="https://conradbezuidenhout.com/feed.xml" rel="self" />
+    <link href="https://conradbezuidenhout.com" />
+    <updated>2019-12-17T10:52:04+08:00</updated>
     <author>
         <name>Conrad Bezuidenhout</name>
     </author>
-    <id>https://conradbez.github.io/conradbez.github.io</id>
+    <id>https://conradbezuidenhout.com</id>
 
     <entry>
         <title>Projects</title>
         <author>
             <name>Conrad Bezuidenhout</name>
         </author>
-        <link href="https://conradbez.github.io/conradbez.github.io/projects.html"/>
-        <id>https://conradbez.github.io/conradbez.github.io/projects.html</id>
+        <link href="https://conradbezuidenhout.com/projects.html"/>
+        <id>https://conradbezuidenhout.com/projects.html</id>
 
         <updated>2019-12-17T10:33:56+08:00</updated>
             <summary>
@@ -52,8 +52,8 @@
         <author>
             <name>Conrad Bezuidenhout</name>
         </author>
-        <link href="https://conradbez.github.io/conradbez.github.io/resume.html"/>
-        <id>https://conradbez.github.io/conradbez.github.io/resume.html</id>
+        <link href="https://conradbezuidenhout.com/resume.html"/>
+        <id>https://conradbezuidenhout.com/resume.html</id>
 
         <updated>2019-12-17T10:31:13+08:00</updated>
             <summary>
