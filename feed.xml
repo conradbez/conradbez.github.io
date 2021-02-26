@@ -3,7 +3,7 @@
     <title>Personal</title>
     <link href="https://conradbezuidenhout.com/feed.xml" rel="self" />
     <link href="https://conradbezuidenhout.com" />
-    <updated>2020-02-26T13:44:42+08:00</updated>
+    <updated>2021-02-26T11:43:48+08:00</updated>
     <author>
         <name>Conrad Bezuidenhout</name>
     </author>
@@ -60,7 +60,7 @@
         <link href="https://conradbezuidenhout.com/projects.html"/>
         <id>https://conradbezuidenhout.com/projects.html</id>
 
-        <updated>2020-02-26T12:15:58+08:00</updated>
+        <updated>2021-02-26T11:43:21+08:00</updated>
             <summary>
                 <![CDATA[
                     A collection of some of the project I do in my spare time. Some are involved, others just an idea I threw together in an afternoon. Neural net that talks like a management consultantconsultant-says.herokuapp.com MILP visual optimiserVisual design a system and send it to minizinc&hellip;
@@ -73,7 +73,7 @@
 <p id="mcetoc_1ds8sbcvh0" class="mb-0">A collection of some of the project I do in my spare time. Some are involved, others just an idea I threw together in an afternoon.</p>
 <h3 id="mcetoc_1ds8r1q294" class="mb-0">Consultant Says</h3>
 <p id="mcetoc_1ds8r5a2b0" class="mb-0">Neural net that talks like a management consultant</p>
-<a href="consultant-says.herokuapp.com">consultant-says.herokuapp.com  </a>
+<a href="http://consultant-says.herokuapp.com/">consultant-says.herokuapp.com  </a>
 <div> </div>
 </div>
 </div>
