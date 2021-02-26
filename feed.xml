@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <title>Personal</title>
+    <title>Conrad</title>
     <link href="https://conradbezuidenhout.com/feed.xml" rel="self" />
     <link href="https://conradbezuidenhout.com" />
-    <updated>2021-02-26T12:15:25+08:00</updated>
+    <updated>2021-02-26T12:24:39+08:00</updated>
     <author>
         <name>Conrad Bezuidenhout</name>
     </author>
@@ -60,11 +60,11 @@
         <link href="https://conradbezuidenhout.com/projects.html"/>
         <id>https://conradbezuidenhout.com/projects.html</id>
 
-        <updated>2021-02-26T12:14:24+08:00</updated>
+        <updated>2021-02-26T12:22:15+08:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://conradbezuidenhout.com/media/posts/2/IMG_20180830_143620.jpg" alt="" />
-                    A collection of some of the project I do in my spare time. Some are involved, others just an idea I threw together in an afternoon. Neural net that talks like a management consultantconsultant-says.herokuapp.com MILP visual optimiserVisual design a system and send it to minizinc&hellip;
+                    A collection of some of the projects I have worked on in my spare time. Some are involved, others just an idea I threw together in an afternoon. Neural net that talks like a management consultantconsultant-says.herokuapp.com MILP visual optimiserVisual design a system and send it&hellip;
                 ]]>
             </summary>
         <content type="html">
@@ -72,7 +72,7 @@
                     <img src="https://conradbezuidenhout.com/media/posts/2/IMG_20180830_143620.jpg" alt="" />
                 <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
 <div class="resume-content">
-<p id="mcetoc_1ds8sbcvh0" class="mb-0">A collection of some of the project I do in my spare time. Some are involved, others just an idea I threw together in an afternoon.</p>
+<p id="mcetoc_1ds8sbcvh0" class="mb-0">A collection of some of the projects I have worked on in my spare time. Some are involved, others just an idea I threw together in an afternoon.</p>
 <h3 id="mcetoc_1ds8r1q294" class="mb-0">Consultant Says</h3>
 <p id="mcetoc_1ds8r5a2b0" class="mb-0">Neural net that talks like a management consultant</p>
 <a href="http://consultant-says.herokuapp.com/">consultant-says.herokuapp.com  </a>
@@ -89,7 +89,7 @@
 <div class="subheading mb-3">Scrape pulib cat bus data and visualise </div>
 <div class="subheading mb-3"><a href="https://perthcatbus.herokuapp.com/">perthcatbus.herokuapp.com</a></div>
 <div class="subheading mb-3"> </div>
-<h2 id="mcetoc_1due9gibq0" class="subheading mb-3">Excel analysis</h2>
+<h3 id="mcetoc_1due9gibq0" class="subheading mb-3">Excel analysis</h3>
 Get a solution space by running your spreadsheet thousands of times<a href="https://excelanalysis.herokuapp.com/">https://excelanalysis.herokuapp.com/</a></div>
 </div>
 </div>
