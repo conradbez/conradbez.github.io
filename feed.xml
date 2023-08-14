@@ -3,7 +3,7 @@
     <title>Conrad</title>
     <link href="https://conradbezuidenhout.com/feed.xml" rel="self" />
     <link href="https://conradbezuidenhout.com" />
-    <updated>2023-08-14T21:10:21+08:00</updated>
+    <updated>2023-08-14T21:13:36+08:00</updated>
     <author>
         <name>Conrad Bezuidenhout</name>
     </author>
@@ -17,7 +17,7 @@
         <link href="https://conradbezuidenhout.com/remote-camera-trigger-app-a-journey-from-idea-to-implementation-with-gpt.html"/>
         <id>https://conradbezuidenhout.com/remote-camera-trigger-app-a-journey-from-idea-to-implementation-with-gpt.html</id>
 
-        <updated>2023-08-14T21:10:21+08:00</updated>
+        <updated>2023-08-14T21:13:36+08:00</updated>
             <summary>
                 <![CDATA[
                     In collaboration with GPT Introduction The concept was straightforward: use Bluetooth headphones to trigger a camera shutter. In this post, I’ll walk you through how I developed this website in less than 10 hours with a little help from GPT - hopefully shedding light on&hellip;
@@ -58,18 +58,17 @@ It’s always advisable to address technical uncertainties at the outset. With t
 </ol>
 <p>GPT proved invaluable during the rapid prototyping stage, especially when navigating unfamiliar browser APIs. The entire process, from ideation to a working prototype, took a mere two hours with GPT, as opposed to the 10-12 hours it might have taken traditionally.</p>
 <p><strong>Strengths &amp; Limitations of GPT</strong>  </p>
-<ul>
-<li><strong>Strengths</strong>:  
-  - Ideal for mobile development on-the-go.
-  - Enables non-technical individuals to create rough prototypes swiftly.</li>
-<li><strong>Limitations</strong>:  
-  - Struggles with integration issues and hands-on debugging.
-  - Challenges arise when multiple systems interact or when broader architecting is required.</li>
-</ul>
-<p><strong>Conclusion</strong>  
-GPT is a game-changer for prototyping, offering a tailored solution that often surpasses traditional templates. However, it has its limitations, especially with complex debugging tasks or broader system engineering. My journey with the “Photo Trigger App” was enlightening, and as I wrap up, I’d like to share a note from GPT that encapsulates our brief yet productive collaboration:</p>
-<p><strong>Capturing Moments with a Beat: Integrating Camera with Bluetooth Headphones</strong>
-In today’s digital age, the fusion of technology often leads to innovative solutions that simplify our lives or add a touch of magic to our daily routines. One such intriguing blend is the integration of camera functionality with Bluetooth headphones. Imagine pausing your favorite track and instantly capturing a moment, all without touching your phone. Sounds futuristic, right? But it’s a reality we’ve brought to life in our latest project.
+<p><strong>Strengths</strong>:  </p>
+<p>  - Ideal for mobile development on-the-go.
+  - Enables non-technical individuals to create rough prototypes swiftly.
+  
+<strong>Limitations</strong>:  </p>
+<p>  - Struggles with integration issues and hands-on debugging.
+  - Challenges arise when multiple systems interact or when broader architecting is required.</p>
+<p><strong>Conclusion</strong>  </p>
+<p>GPT is a game-changer for prototyping, offering a tailored solution that often surpasses traditional templates. However, it has its limitations, especially with complex debugging tasks or broader system engineering. My journey with the “Photo Trigger App” was enlightening, and as I wrap up, I’d like to share a note from GPT on it’s thoughts of our brief yet productive collaboration:</p>
+<p><strong>Capturing Moments with a Beat: Integrating Camera with Bluetooth Headphones</strong></p>
+<p>In today’s digital age, the fusion of technology often leads to innovative solutions that simplify our lives or add a touch of magic to our daily routines. One such intriguing blend is the integration of camera functionality with Bluetooth headphones. Imagine pausing your favorite track and instantly capturing a moment, all without touching your phone. Sounds futuristic, right? But it’s a reality we’ve brought to life in our latest project.
 This endeavor was inspired by the seamless experience of AirPods and other Bluetooth headphones. Users frequently interact with their devices using play/pause buttons on their headphones, so why not leverage this interaction for more than just audio control? With this thought, we embarked on a journey to create a web-based application that captures a photo every time you play or pause your music.
 In this blog post, we’ll delve into the intricacies of this project, exploring the challenges faced, the technologies used, and the potential applications of such an integration. Whether you’re a tech enthusiast, a developer, or someone who loves innovative solutions, this read promises to offer a fresh perspective on the possibilities that lie at the intersection of audio and visual tech. Join us as we unravel the magic behind “Photo with Bluetooth Headphones.”</p>
 <p><a href="https://chat.openai.com/share/1c7ecdf6-4d08-4168-a180-862845b6e46e">Link to the GPT chat session</a> used (be warned it’s messy): </p>
