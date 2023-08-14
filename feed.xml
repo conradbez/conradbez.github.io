@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
     <title>Conrad</title>
     <link href="https://conradbezuidenhout.com/feed.xml" rel="self" />
     <link href="https://conradbezuidenhout.com" />
-    <updated>2021-08-03T23:43:40+08:00</updated>
+    <updated>2023-08-14T15:59:45+08:00</updated>
     <author>
         <name>Conrad Bezuidenhout</name>
     </author>
@@ -29,14 +29,14 @@
 <p>In building an AFL fantasy optimisation engine I ran tired of manually excluding all injured players.</p>
 <p>I put together a python script that reads the official list of AFL player injuries and outputs expected return dates (based on the estimated return listed on the website).</p>
 <p>The result is an auto-updating CSV </p>
-<figure class="post__image"><img loading="lazy"  src="https://conradbezuidenhout.com/media/posts/5/Screen-Shot-2021-08-03-at-11.17.01-pm.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://conradbezuidenhout.com/media/posts/5/responsive/Screen-Shot-2021-08-03-at-11.17.01-pm-xs.png 300w ,https://conradbezuidenhout.com/media/posts/5/responsive/Screen-Shot-2021-08-03-at-11.17.01-pm-sm.png 480w ,https://conradbezuidenhout.com/media/posts/5/responsive/Screen-Shot-2021-08-03-at-11.17.01-pm-md.png 768w ,https://conradbezuidenhout.com/media/posts/5/responsive/Screen-Shot-2021-08-03-at-11.17.01-pm-lg.png 1024w ,https://conradbezuidenhout.com/media/posts/5/responsive/Screen-Shot-2021-08-03-at-11.17.01-pm-xl.png 1360w ,https://conradbezuidenhout.com/media/posts/5/responsive/Screen-Shot-2021-08-03-at-11.17.01-pm-2xl.png 1600w"  alt="" width="1390" height="663"></figure>
+<figure class="post__image"><img loading="lazy"  src="https://conradbezuidenhout.com/media/posts/5/Screen-Shot-2021-08-03-at-11.17.01-pm.png" alt="" width="1390" height="663" sizes="(max-width: 48em) 100vw, 768px" srcset="https://conradbezuidenhout.com/media/posts/5/responsive/Screen-Shot-2021-08-03-at-11.17.01-pm-xs.png 300w ,https://conradbezuidenhout.com/media/posts/5/responsive/Screen-Shot-2021-08-03-at-11.17.01-pm-sm.png 480w ,https://conradbezuidenhout.com/media/posts/5/responsive/Screen-Shot-2021-08-03-at-11.17.01-pm-md.png 768w ,https://conradbezuidenhout.com/media/posts/5/responsive/Screen-Shot-2021-08-03-at-11.17.01-pm-lg.png 1024w ,https://conradbezuidenhout.com/media/posts/5/responsive/Screen-Shot-2021-08-03-at-11.17.01-pm-xl.png 1360w ,https://conradbezuidenhout.com/media/posts/5/responsive/Screen-Shot-2021-08-03-at-11.17.01-pm-2xl.png 1600w"></figure>
 <p>(https://github.com/conradbez/afl_injuries/blob/main/injuries.csv)</p>
 <h2>Challenges:</h2>
 <ol>
 <li>Return from injury times are given in the human-readable form (see image below *)</li>
 <li>Return dates should auto-update without costly <span data-preserver-spaces="true">infrastructure </span>(maintenance time and compute cost) </li>
 </ol>
-<figure class="post__image"><img loading="lazy"  src="https://conradbezuidenhout.com/media/posts/5/Screen-Shot-2021-08-03-at-11.18.43-pm.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://conradbezuidenhout.com/media/posts/5/responsive/Screen-Shot-2021-08-03-at-11.18.43-pm-xs.png 300w ,https://conradbezuidenhout.com/media/posts/5/responsive/Screen-Shot-2021-08-03-at-11.18.43-pm-sm.png 480w ,https://conradbezuidenhout.com/media/posts/5/responsive/Screen-Shot-2021-08-03-at-11.18.43-pm-md.png 768w ,https://conradbezuidenhout.com/media/posts/5/responsive/Screen-Shot-2021-08-03-at-11.18.43-pm-lg.png 1024w ,https://conradbezuidenhout.com/media/posts/5/responsive/Screen-Shot-2021-08-03-at-11.18.43-pm-xl.png 1360w ,https://conradbezuidenhout.com/media/posts/5/responsive/Screen-Shot-2021-08-03-at-11.18.43-pm-2xl.png 1600w"  alt="" width="740" height="571"></figure>
+<figure class="post__image"><img loading="lazy"  src="https://conradbezuidenhout.com/media/posts/5/Screen-Shot-2021-08-03-at-11.18.43-pm.png" alt="" width="740" height="571" sizes="(max-width: 48em) 100vw, 768px" srcset="https://conradbezuidenhout.com/media/posts/5/responsive/Screen-Shot-2021-08-03-at-11.18.43-pm-xs.png 300w ,https://conradbezuidenhout.com/media/posts/5/responsive/Screen-Shot-2021-08-03-at-11.18.43-pm-sm.png 480w ,https://conradbezuidenhout.com/media/posts/5/responsive/Screen-Shot-2021-08-03-at-11.18.43-pm-md.png 768w ,https://conradbezuidenhout.com/media/posts/5/responsive/Screen-Shot-2021-08-03-at-11.18.43-pm-lg.png 1024w ,https://conradbezuidenhout.com/media/posts/5/responsive/Screen-Shot-2021-08-03-at-11.18.43-pm-xl.png 1360w ,https://conradbezuidenhout.com/media/posts/5/responsive/Screen-Shot-2021-08-03-at-11.18.43-pm-2xl.png 1600w"></figure>
 <p>* example injury page - not easily machine-readable</p>
 <h2>Solution</h2>
 <ol>
@@ -81,12 +81,13 @@
         </author>
         <link href="https://conradbezuidenhout.com/cat-bus-congestion-analysis.html"/>
         <id>https://conradbezuidenhout.com/cat-bus-congestion-analysis.html</id>
+        <media:content url="https://conradbezuidenhout.com/media/posts/3/catBussmall.gif" medium="image" />
 
         <updated>2019-12-17T16:09:14+08:00</updated>
             <summary></summary>
         <content type="html">
             <![CDATA[
-                    <img src="https://conradbezuidenhout.com/media/posts/3/catBussmall.gif" alt="" />
+                    <p><img src="https://conradbezuidenhout.com/media/posts/3/catBussmall.gif" class="type:primaryImage" alt="" /></p>
                 <div class="post__iframe"><iframe loading="lazy" width="100%" height="50000" src="https://perthcatbus.herokuapp.com/"></iframe></div>
             ]]>
         </content>
@@ -98,38 +99,50 @@
         </author>
         <link href="https://conradbezuidenhout.com/projects.html"/>
         <id>https://conradbezuidenhout.com/projects.html</id>
+        <media:content url="https://conradbezuidenhout.com/media/posts/2/IMG_20180830_143620.jpg" medium="image" />
 
-        <updated>2021-02-26T12:22:15+08:00</updated>
+        <updated>2023-08-14T15:59:45+08:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://conradbezuidenhout.com/media/posts/2/IMG_20180830_143620.jpg" alt="" />
-                     A collection of some of the projects I have worked on in my spare time. Some are involved, others just an idea I threw together in an afternoon. Neural net that talks like a management consultant consultant-says.herokuapp.com MILP visual optimiser Visual design a system&hellip;
+                    A collection of some of the projects I have worked on in my spare time. Some are involved, others just an idea I threw together in an afternoon. Use bluetooth headphones to take a photo from distance and a foray into the world of programming&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <img src="https://conradbezuidenhout.com/media/posts/2/IMG_20180830_143620.jpg" alt="" />
+                    <p><img src="https://conradbezuidenhout.com/media/posts/2/IMG_20180830_143620.jpg" class="type:primaryImage" alt="" /></p>
                 <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
 <div class="resume-content">
 <p class="mb-0">A collection of some of the projects I have worked on in my spare time. Some are involved, others just an idea I threw together in an afternoon.</p>
+<h3>Remote camera trigger</h3>
+<p>Use bluetooth headphones to take a photo from distance and a foray into the world of programming with GPT</p>
+<p><a href="#INTERNAL_LINK#/post/null">github.com/conradbez/camera-trigger</a></p>
+<h3>HStream</h3>
+<p>Python library that allows rapid website creation</p>
+<p><a href="#INTERNAL_LINK#/post/null">github.com/conradbez/hstream</a></p>
+<h3>Dispensed</h3>
+<p>Vending as a Service (VaaS) platform to quickly and easily build your own vending machine</p>
+<p><a href="#INTERNAL_LINK#/post/NaN">about.dispensed.app</a></p>
 <h3 class="mb-0">Consultant Says</h3>
 <p class="mb-0">Neural net that talks like a management consultant</p>
-<a href="http://consultant-says.herokuapp.com/">consultant-says.herokuapp.com  </a>
+<p class="mb-0"><a href="http://consultant-says.herokuapp.com/" style="font-family: var(--editor-font-family); font-size: inherit; font-weight: var(--font-weight-normal);">consultant-says.herokuapp.com  </a></p>
 <div> </div>
 </div>
 </div>
 <div class="resume-item d-flex flex-column flex-md-row justify-content-between">
 <div class="resume-content">
 <h3 class="mb-0">MILP visual optimiser</h3>
-<div class="subheading mb-3">Visual design a system and send it to minizinc for milp optimisation<br><a href="https://revo-opti.herokuapp.com/">revo-opti.herokuapp.com</a></div>
+<div class="subheading mb-3">Visual design a system and send it to minizinc for milp optimisation</div>
+<div class="subheading mb-3"><a href="https://revo-opti.herokuapp.com/">revo-opti.herokuapp.com</a></div>
 <div class="subheading mb-3"> </div>
 <div class="subheading mb-3">
 <h3 class="mb-0">Cat Bus analysis</h3>
-<div class="subheading mb-3">Scrape pulib cat bus data and visualise </div>
+<div class="subheading mb-3">Scrape public cat bus data and visualise </div>
 <div class="subheading mb-3"><a href="https://perthcatbus.herokuapp.com/">perthcatbus.herokuapp.com</a></div>
 <div class="subheading mb-3"> </div>
 <h3 class="subheading mb-3">Excel analysis</h3>
-Get a solution space by running your spreadsheet thousands of times<a href="https://excelanalysis.herokuapp.com/">https://excelanalysis.herokuapp.com/</a></div>
+Get a solution space by running your spreadsheet thousands of times</div>
+<div class="subheading mb-3"><a href="https://excelanalysis.herokuapp.com/">https://excelanalysis.herokuapp.com/</a></div>
 </div>
 </div>
             ]]>
@@ -142,6 +155,7 @@ Get a solution space by running your spreadsheet thousands of times<a href="http
         </author>
         <link href="https://conradbezuidenhout.com/resume.html"/>
         <id>https://conradbezuidenhout.com/resume.html</id>
+        <media:content url="https://conradbezuidenhout.com/media/posts/1/IMG_20180830_143620.jpg" medium="image" />
 
         <updated>2021-02-26T12:10:37+08:00</updated>
             <summary>
@@ -152,7 +166,7 @@ Get a solution space by running your spreadsheet thousands of times<a href="http
             </summary>
         <content type="html">
             <![CDATA[
-                    <img src="https://conradbezuidenhout.com/media/posts/1/IMG_20180830_143620.jpg" alt="" />
+                    <p><img src="https://conradbezuidenhout.com/media/posts/1/IMG_20180830_143620.jpg" class="type:primaryImage" alt="" /></p>
                 <p class="align-center"><em>Where engineering promise meets business realities to create value</em></p>
 <p>Working across multiple industries in Australia and South Africa, I have drawn on innovative techniques to improve business efficiency and support smooth technological integration into large legacy organisations.<br><br>I specialise in developing optimisation solutions for large asset management problems and designing fit for purpose change management frameworks for complex, dependency heavy initiatives. I have gained valuable cross industry experience working in different disciplines (mining, shipping, government and data analytics) nationally (Queensland) and internationally (Indonesia and South Africa). I have a particular focused on the improving organisations’ way of working through their digital initiatives.</p>
 <h2 class="mb-5">EXPERIENCE</h2>
@@ -164,7 +178,7 @@ Get a solution space by running your spreadsheet thousands of times<a href="http
 <p><strong>Global Mine and Manufaturer</strong></p>
 <p>Developed strategy to optimise rollout of global miner/manufacturer central analytics platform considering the Strategy, People, Process, Data, Technology pillars in the <a href="https://www2.deloitte.com/ca/en/pages/deloitte-analytics/articles/becoming-an-insight-driven-organization.html">Deloitte IDO</a> framework.</p>
 <p>I developed and deployed a survey about current state and desired target state at the client's organisation which was widely distrubuted to form the basis for our recoomendations. Using the survey data we identified and engaged key stakeholders to interview and include in workshops. </p>
-<figure class="post__image post__image" ><img loading="lazy" src="https://conradbezuidenhout.com/media/posts/1/ido.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://conradbezuidenhout.com/media/posts/1/responsive/ido-xs.png 300w ,https://conradbezuidenhout.com/media/posts/1/responsive/ido-sm.png 480w ,https://conradbezuidenhout.com/media/posts/1/responsive/ido-md.png 768w ,https://conradbezuidenhout.com/media/posts/1/responsive/ido-lg.png 1024w ,https://conradbezuidenhout.com/media/posts/1/responsive/ido-xl.png 1360w ,https://conradbezuidenhout.com/media/posts/1/responsive/ido-2xl.png 1600w"  alt="Deloitte's Insight Driven Organisation framework" width="974" height="729">
+<figure class="post__image post__image" ><img loading="lazy" src="https://conradbezuidenhout.com/media/posts/1/ido.png" alt="Deloitte's Insight Driven Organisation framework" width="974" height="729" sizes="(max-width: 48em) 100vw, 768px" srcset="https://conradbezuidenhout.com/media/posts/1/responsive/ido-xs.png 300w ,https://conradbezuidenhout.com/media/posts/1/responsive/ido-sm.png 480w ,https://conradbezuidenhout.com/media/posts/1/responsive/ido-md.png 768w ,https://conradbezuidenhout.com/media/posts/1/responsive/ido-lg.png 1024w ,https://conradbezuidenhout.com/media/posts/1/responsive/ido-xl.png 1360w ,https://conradbezuidenhout.com/media/posts/1/responsive/ido-2xl.png 1600w">
 <figcaption >
 <p>Deloitte's<a href="https://www2.deloitte.com/nl/nl/pages/strategy-analytics-and-ma/solutions/ido-insight-driven-organization.html" title="IDO: Insight Driven Organisation | Data Analytics | Deloitte Netherlands" target="_blank" rel="noopener noreferrer"> Insight Driven Organisation</a> aprroach considers all aspects necessary to deliver value through analytics </p>
 </figcaption>
@@ -173,7 +187,7 @@ Get a solution space by running your spreadsheet thousands of times<a href="http
 <p><strong>Global leader in mining</strong></p>
 <p>Hill of Value is an innovative mine planning method which focusses on 1-3 year planning, particularly before capital investment. My role was to assess use cases, build user personas and user requirements and explore business use casses.</p>
 <p>I also built a demo application in Python to give the client interactivity with the Hill of Value idea.</p>
-<figure class="post__image"><img loading="lazy"  src="https://conradbezuidenhout.com/media/posts/1/HoV-image.jpg" sizes="(max-width: 48em) 100vw, 768px" srcset="https://conradbezuidenhout.com/media/posts/1/responsive/HoV-image-xs.jpg 300w ,https://conradbezuidenhout.com/media/posts/1/responsive/HoV-image-sm.jpg 480w ,https://conradbezuidenhout.com/media/posts/1/responsive/HoV-image-md.jpg 768w ,https://conradbezuidenhout.com/media/posts/1/responsive/HoV-image-lg.jpg 1024w ,https://conradbezuidenhout.com/media/posts/1/responsive/HoV-image-xl.jpg 1360w ,https://conradbezuidenhout.com/media/posts/1/responsive/HoV-image-2xl.jpg 1600w"  alt="" width="1024" height="727"></figure>
+<figure class="post__image"><img loading="lazy"  src="https://conradbezuidenhout.com/media/posts/1/HoV-image.jpg" alt="" width="1024" height="727" sizes="(max-width: 48em) 100vw, 768px" srcset="https://conradbezuidenhout.com/media/posts/1/responsive/HoV-image-xs.jpg 300w ,https://conradbezuidenhout.com/media/posts/1/responsive/HoV-image-sm.jpg 480w ,https://conradbezuidenhout.com/media/posts/1/responsive/HoV-image-md.jpg 768w ,https://conradbezuidenhout.com/media/posts/1/responsive/HoV-image-lg.jpg 1024w ,https://conradbezuidenhout.com/media/posts/1/responsive/HoV-image-xl.jpg 1360w ,https://conradbezuidenhout.com/media/posts/1/responsive/HoV-image-2xl.jpg 1600w"></figure>
 <p><a href="https://www.ausimmbulletin.com/feature/the-role-of-mine-planning-in-high-performance/">https://www.ausimmbulletin.com/feature/the-role-of-mine-planning-in-high-performance/</a></p>
 <h3>Inventory analysis and dashboarding</h3>
 <p><strong>Global leader in mining</strong></p>
