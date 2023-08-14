@@ -3,7 +3,7 @@
     <title>Conrad</title>
     <link href="https://conradbezuidenhout.com/feed.xml" rel="self" />
     <link href="https://conradbezuidenhout.com" />
-    <updated>2023-08-14T21:19:06+08:00</updated>
+    <updated>2023-08-14T21:26:16+08:00</updated>
     <author>
         <name>Conrad Bezuidenhout</name>
     </author>
@@ -17,16 +17,17 @@
         <link href="https://conradbezuidenhout.com/remote-camera-trigger-app-a-journey-from-idea-to-implementation-with-gpt.html"/>
         <id>https://conradbezuidenhout.com/remote-camera-trigger-app-a-journey-from-idea-to-implementation-with-gpt.html</id>
 
-        <updated>2023-08-14T21:19:06+08:00</updated>
+        <updated>2023-08-14T21:26:16+08:00</updated>
             <summary>
                 <![CDATA[
-                    Introduction The concept was straightforward: use Bluetooth headphones to trigger a camera shutter. In this post, I’ll walk you through how I developed this website in less than 10 hours with a little help from GPT - hopefully shedding light on how developers use Large&hellip;
+                    TLDR - developed a camera app with ChatGPT and found it helped immensely with specific tasks but was pretty bad at broader tasks. The concept was straightforward: use Bluetooth headphones to trigger a camera shutter. In this post, I’ll walk you through how I developed&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                <h2 id="introduction">Introduction</h2>
-<p>The concept was straightforward: use Bluetooth headphones to trigger a camera shutter. In this post, I’ll walk you through how I developed this website in less than 10 hours with a little help from GPT - hopefully shedding light on how developers use Large Language Models</p>
+                <p><em>TLDR - developed <a href="https://conradbez.com/camera-trigger/">a camera app</a> with ChatGPT and found it helped immensely with specific tasks but was pretty bad at broader tasks.</em></p>
+<h2 id="introduction">Introduction</h2>
+<p>The concept was straightforward: use Bluetooth headphones to trigger a camera shutter. In this post, I’ll walk you through how I developed this website in less than 10 hours with a little help from GPT - hopefully shedding light on how developers use Large Language Models.</p>
 <h2 id="what--why">What &amp; Why</h2>
 <p>The “Photo Trigger App” was born out of a need for convenience and a desire to test the end-to-end development capabilities of GPT. The goal was simple:  </p>
 <p><strong>What</strong>: </p>
@@ -36,8 +37,7 @@
 </ul>
 <p><strong>Why</strong>: </p>
 <ul>
-<li>To capture group photos without the need to fumble with the phone’s timer
-<a href="https://conradbez.com/camera-trigger/">conradbez.com/camera-trigger</a></li>
+<li>To capture group photos without the need to fumble with the phone’s timer </li>
 <li>Test and demonstrate how modern developers can work with GPT</li>
 </ul>
 <h2 id="development-with-gpt">Development with GPT</h2>
