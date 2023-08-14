@@ -3,7 +3,7 @@
     <title>Conrad</title>
     <link href="https://conradbezuidenhout.com/feed.xml" rel="self" />
     <link href="https://conradbezuidenhout.com" />
-    <updated>2023-08-14T20:57:56+08:00</updated>
+    <updated>2023-08-14T21:10:21+08:00</updated>
     <author>
         <name>Conrad Bezuidenhout</name>
     </author>
@@ -17,7 +17,7 @@
         <link href="https://conradbezuidenhout.com/remote-camera-trigger-app-a-journey-from-idea-to-implementation-with-gpt.html"/>
         <id>https://conradbezuidenhout.com/remote-camera-trigger-app-a-journey-from-idea-to-implementation-with-gpt.html</id>
 
-        <updated>2023-08-14T20:57:56+08:00</updated>
+        <updated>2023-08-14T21:10:21+08:00</updated>
             <summary>
                 <![CDATA[
                     In collaboration with GPT Introduction The concept was straightforward: use Bluetooth headphones to trigger a camera shutter. In this post, I’ll walk you through how I developed this website in less than 10 hours with a little help from GPT - hopefully shedding light on&hellip;
@@ -29,12 +29,14 @@
 <p><strong>Introduction</strong>  
 The concept was straightforward: use Bluetooth headphones to trigger a camera shutter. In this post, I’ll walk you through how I developed this website in less than 10 hours with a little help from GPT - hopefully shedding light on how developers use Large Language Models</p>
 <p><strong>What &amp; Why</strong>  
-The “Photo Trigger App” was born out of a need for convenience and a desire to test the end-to-end development capabilities of GPT. The goal was simple:  
-<strong>What</strong>: </p>
+The “Photo Trigger App” was born out of a need for convenience and a desire to test the end-to-end development capabilities of GPT. The goal was simple:  </p>
+<p><strong>What</strong>: </p>
 <ul>
 <li>Create an app that uses the play/pause button of Bluetooth headphones to trigger the camera</li>
-<li>Use Chat GPT with the WebDev plugin ( <a href="https://converter.app/webdev-chatgpt-plugin/">WebDev</a> )
-<strong>Why</strong>: </li>
+<li>Use Chat GPT with the WebDev plugin (<a href="https://converter.app/webdev-chatgpt-plugin/">WebDev</a>)</li>
+</ul>
+<p><strong>Why</strong>: </p>
+<ul>
 <li>To capture group photos without the need to fumble with the phone’s timer
 <a href="https://conradbez.com/camera-trigger/">conradbez.com/camera-trigger</a></li>
 <li>Test and demonstrate how modern developers can work with GPT</li>
