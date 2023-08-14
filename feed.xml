@@ -3,7 +3,7 @@
     <title>Conrad</title>
     <link href="https://conradbezuidenhout.com/feed.xml" rel="self" />
     <link href="https://conradbezuidenhout.com" />
-    <updated>2023-08-14T21:17:27+08:00</updated>
+    <updated>2023-08-14T21:19:06+08:00</updated>
     <author>
         <name>Conrad Bezuidenhout</name>
     </author>
@@ -17,16 +17,15 @@
         <link href="https://conradbezuidenhout.com/remote-camera-trigger-app-a-journey-from-idea-to-implementation-with-gpt.html"/>
         <id>https://conradbezuidenhout.com/remote-camera-trigger-app-a-journey-from-idea-to-implementation-with-gpt.html</id>
 
-        <updated>2023-08-14T21:17:27+08:00</updated>
+        <updated>2023-08-14T21:19:06+08:00</updated>
             <summary>
                 <![CDATA[
-                    In collaboration with GPT The concept was straightforward: use Bluetooth headphones to trigger a camera shutter. In this post, I’ll walk you through how I developed this website in less than 10 hours with a little help from GPT - hopefully shedding light on how&hellip;
+                    Introduction The concept was straightforward: use Bluetooth headphones to trigger a camera shutter. In this post, I’ll walk you through how I developed this website in less than 10 hours with a little help from GPT - hopefully shedding light on how developers use Large&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                <p><em>In collaboration with GPT</em></p>
-<h2 id="introduction">Introduction</h2>
+                <h2 id="introduction">Introduction</h2>
 <p>The concept was straightforward: use Bluetooth headphones to trigger a camera shutter. In this post, I’ll walk you through how I developed this website in less than 10 hours with a little help from GPT - hopefully shedding light on how developers use Large Language Models</p>
 <h2 id="what--why">What &amp; Why</h2>
 <p>The “Photo Trigger App” was born out of a need for convenience and a desire to test the end-to-end development capabilities of GPT. The goal was simple:  </p>
@@ -75,7 +74,7 @@
 <p>In today’s digital age, the fusion of technology often leads to innovative solutions that simplify our lives or add a touch of magic to our daily routines. One such intriguing blend is the integration of camera functionality with Bluetooth headphones. Imagine pausing your favorite track and instantly capturing a moment, all without touching your phone. Sounds futuristic, right? But it’s a reality we’ve brought to life in our latest project.
 This endeavor was inspired by the seamless experience of AirPods and other Bluetooth headphones. Users frequently interact with their devices using play/pause buttons on their headphones, so why not leverage this interaction for more than just audio control? With this thought, we embarked on a journey to create a web-based application that captures a photo every time you play or pause your music.
 In this blog post, we’ll delve into the intricacies of this project, exploring the challenges faced, the technologies used, and the potential applications of such an integration. Whether you’re a tech enthusiast, a developer, or someone who loves innovative solutions, this read promises to offer a fresh perspective on the possibilities that lie at the intersection of audio and visual tech. Join us as we unravel the magic behind “Photo with Bluetooth Headphones.”</p>
-<p><a href="https://chat.openai.com/share/1c7ecdf6-4d08-4168-a180-862845b6e46e">Link</a>  to the GPT chat session used (be warned it’s messy!): </p>
+<p><a href="https://chat.openai.com/share/1c7ecdf6-4d08-4168-a180-862845b6e46e">Link</a>  to the GPT chat session used (be warned it’s messy!)</p>
 
             ]]>
         </content>
