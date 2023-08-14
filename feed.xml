@@ -3,7 +3,7 @@
     <title>Conrad</title>
     <link href="https://conradbezuidenhout.com/feed.xml" rel="self" />
     <link href="https://conradbezuidenhout.com" />
-    <updated>2023-08-14T15:59:45+08:00</updated>
+    <updated>2023-08-14T16:08:35+08:00</updated>
     <author>
         <name>Conrad Bezuidenhout</name>
     </author>
@@ -101,7 +101,7 @@
         <id>https://conradbezuidenhout.com/projects.html</id>
         <media:content url="https://conradbezuidenhout.com/media/posts/2/IMG_20180830_143620.jpg" medium="image" />
 
-        <updated>2023-08-14T15:59:45+08:00</updated>
+        <updated>2023-08-14T16:08:35+08:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://conradbezuidenhout.com/media/posts/2/IMG_20180830_143620.jpg" alt="" />
@@ -123,6 +123,8 @@
 <h3>Dispensed</h3>
 <p>Vending as a Service (VaaS) platform to quickly and easily build your own vending machine</p>
 <p><a href="#INTERNAL_LINK#/post/NaN">about.dispensed.app</a></p>
+<h3>Zerofork</h3>
+<p>Using dispensed.app to deploy re-useable metal cutlery to foodcourts in shopping centers</p>
 <h3 class="mb-0">Consultant Says</h3>
 <p class="mb-0">Neural net that talks like a management consultant</p>
 <p class="mb-0"><a href="http://consultant-says.herokuapp.com/" style="font-family: var(--editor-font-family); font-size: inherit; font-weight: var(--font-weight-normal);">consultant-says.herokuapp.com  </a></p>
